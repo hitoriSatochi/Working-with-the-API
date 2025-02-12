@@ -1,0 +1,23 @@
+.main-text{
+    font-size: 26px;
+    width: 100%;
+    text-align: center;
+}
+
+.weather-body{
+    
+    
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width:510px){
+    .weather-body{
+        
+        font-size: 10px;
+    }
+    input{
+        margin-bottom: 2vh;
+    }
+}

@@ -1,0 +1,16 @@
+.container-footer{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+   position: fixed;
+    border-top: solid 1px #bdbdbd;
+    background-color: #d1d1d1;
+    color: rgb(0, 0, 0);
+    border-radius: 15px 15px 0 0;
+    bottom: 0vh;
+    
+}
+.number_admin{
+    
+   margin-top: 2vh;
+}

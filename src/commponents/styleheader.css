@@ -1,0 +1,110 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+.container-header {
+  width: 97%;
+  height: 8vh;
+  margin: 0 auto;
+  background-color: rgb(236, 236, 236);
+  border-radius: 0px 0px 15px 15px;
+  border-bottom: solid 1px #d6d5d5;
+  box-shadow: 0 4px 5px 2px #d6d5d5;
+  display: flex;
+  justify-content: space-between;
+}
+.container-header .burger-nav {
+  display: flex;
+}
+.container-header .burger-nav img {
+  width: 50px;
+  margin-top: 1.8vh;
+  margin-left: 20px;
+}
+.container-header .burger-nav .wrapper-link {
+  padding-top: 2vh;
+  display: flex;
+  justify-content: start;
+  color: black;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.container-header .burger-nav .wrapper-link a {
+  padding-top: 6px;
+  margin-left: 20px;
+}
+.container-header .header-burger-butt {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .container-header .wrapper-link.active {
+    transform: translateX(-140%);
+  }
+  .container-header .burger-nav .wrapper-link {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    display: flex;
+    top: 0px;
+    right: -200px;
+    background-color: #ffffff;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    z-index: 1;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s linear;
+  }
+  .container-header .burger-nav a {
+    margin-left: 0;
+  }
+  .container-header .header-burger-butt {
+    margin: 2vh 2vh 0 0;
+    display: block;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    right: 27px;
+  }
+  .container-header .header-burger-butt .icon_but {
+    width: 100%;
+    height: 100%;
+  }
+}/*# sourceMappingURL=styleheader.css.map */
