@@ -4,15 +4,15 @@ import './App.css'
 
 import Header from './commponents/header'
 import Footer from './commponents/footer'
-
+import { Home } from "./pages/Home";
 
 
 function App() {
   return (
     <div className='app'>
       <Header/>
-      <h2>Home page</h2>
       
+      <Home></Home>
       <Footer/>
     </div>
   );
