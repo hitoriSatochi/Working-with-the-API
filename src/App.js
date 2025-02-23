@@ -6,11 +6,12 @@ import Header from './commponents/header'
 import Footer from './commponents/footer'
 
 
+
 function App() {
   return (
     <div className='app'>
       <Header/>
-      
+      Home page
       <Footer/>
     </div>
   );
